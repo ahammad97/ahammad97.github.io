@@ -1,0 +1,135 @@
+body {
+    margin: 0%;
+}
+#title_header {
+    color: #ffffff;
+    padding-top: 10%;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 100px;
+}
+#title_header1 {
+    color: #000000;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+}
+#content_body {
+    color: #000000;
+    width: 50%;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    margin: auto;
+}
+.green_color {
+    color:#00e676;
+}
+.red_color {
+    color: #ff3d00;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+#div1 {
+    height: 800px;
+    background-color: #03a9f4;
+}
+#div2 {
+    height: 700px;
+}
+#div3 {
+    height: 700px;
+    background-color: #03a9f4;
+}
+
+/* BUTTON LANDING */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900);
+
+
+* {
+  box-sizing: inherit;
+  transition-property: all;
+  transition-duration: .6s;
+  transition-timing-function: ease;
+}
+
+
+.landing_btn { 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em;
+    text-align: center; 
+    
+    @media (min-width: 600px) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.btn {
+  color: #fff;
+  cursor: pointer;
+  font-size:16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px; 
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%; 
+  font-family: 'Dosis', sans-serif;
+  
+  @media(min-width: 600px) {
+      
+    margin: 0 1em 2em;  
+  }
+  
+  
+}
+.btn:hover { text-decoration: none; }
+
+.btn-1 {
+  background: darken(#E1332D, 1.5%);
+  background-color:#E1332D;
+  font-weight: 100;
+}
+.btn-1 svg {
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 0; 
+    width: 100%; 
+  }
+.btn-1 rect {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-dasharray: 422, 0;
+    transition: all 0.35s linear;
+  }
+
+.btn-1:hover {
+  background: rgba(#E1332D, 0);
+  background-color:#03a9f4;
+  font-weight: 900;
+  letter-spacing: 1px;
+  
+  
+}
+.btn-1:hover rect {
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  img {
+    z-index: -1;
+  }
